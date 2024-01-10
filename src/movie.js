@@ -89,7 +89,7 @@ render() {
         </div>
         {filterData.length === 0 && (
             <div className="error--wrapper">
-            <span className="error404">No Results</span>
+            <span className="error404">Loading...</span>
             </div>
         )}
         </div>
